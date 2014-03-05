@@ -1,7 +1,7 @@
 docker-dancekit
 ===============
 
-Dockerfile to set up the DAnCEKit web server (see [http://dance4water.eng.monash.edu](http://dance4water.eng.monash.edu))
+Dockerfile to set up DAnCEKit web server (see [http://dance4water.eng.monash.edu](http://dance4water.eng.monash.edu))
 
 Run following to create the container
 
