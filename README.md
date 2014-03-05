@@ -2,3 +2,11 @@ docker-dancekit
 ===============
 
 Dockerfile to set up the DAnCEKit web server
+
+Run following to create the container
+
+docker build -t dancekit git://github.com/christianurich/docker-dancekit.git
+
+Run following to start the sever
+
+docker run -name dancekit_instance -p 80:80 -i -t dancekit 
