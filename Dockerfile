@@ -47,6 +47,7 @@ RUN export PYTHONPATH="/home/DynaMind-Toolbox/build/output:${PYTHONPATH}"
 
 RUN pip install flask
 RUN pip install cherrypy
+RUN pip install requests
 
 # Expose ports
 EXPOSE 80
