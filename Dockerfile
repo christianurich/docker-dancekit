@@ -21,7 +21,7 @@ RUN  add-apt-repository -y ppa:ubuntugis/ubuntugis-unstable
 RUN  add-apt-repository -y ppa:mapnik/v2.2.0
 
 RUN apt-get update 
-RUN apt-get install -y build-essential cmake git graphviz graphviz-dev swig qt4-dev-tools python-dev python-pip libgdal1-dev libcgal-dev libqglviewer-dev-common libboost-system-dev libboost-graph-dev python-numpy python-scipy python-gdal python-matplotlib python-netcdf
+RUN apt-get install -y build-essential cmake git graphviz graphviz-dev swig qt4-dev-tools python-dev python-pip libgdal1-dev libcgal-dev libqglviewer-dev libboost-system-dev libboost-graph-dev python-numpy python-scipy python-gdal python-matplotlib python-netcdf
 RUN apt-get install  -y  libmapnik libmapnik-dev mapnik-utils python-mapnik
 
 RUN pip install reimport
